@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigo 33 do código de estrada</title>
+    <link rel="stylesheet" href="estilos/estyle.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">home</a>  /..
+        <a href="fotodaTabela.html">Tabela das velocidades </a>
+    </nav>
+
+    <main>
+        <h2>Detector de Contravenções</h2>
+
+        <p style="text-align: center; color: azure; font-family: 'Times New Roman', Times, serif; padding: 5px;">NB:  <i>Este detector é valido para os automóveis ligeiros ou motociclos.</i></p>
+
+        <div id="insert-location">
+            <p>
+                <input type="radio" name="TXT" id="away">
+                <label for="away">Fora das localidades</label>
+            </p>
+
+            <p>
+                <input type="radio" name="TXT" id="home" checked>
+                <label for="home">Dentro das localidades</label>
+            </p>
+
+        </div>
+
+        <div id="insert-vel">
+            <p>
+                Insira a velocidade excedida pelo condutor: <input type="number" name="vel" id="vel">
+             </p>
+        </div>
+        
+        <p>
+            <input id="ver" type="submit" value="Verificar a Contravenção" onclick="verificar()">
+        </p>
+
+        <div id="res"></div>
+    </main>
+
+    <footer>made by:<i> Bruce Arlindo Wate</i></footer>
+
+    <script src="comands/index.js"></script>
+</body>
+</html>
