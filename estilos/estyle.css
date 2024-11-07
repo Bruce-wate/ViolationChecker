@@ -13,10 +13,11 @@ html,body{
     background-color: lightgray;
 }
 
-nav > a{
-   padding-left: 10px;
-
+nav {
+    padding: 20px;
 }
+
+
 
 main{
     height: 340px;

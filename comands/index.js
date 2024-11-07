@@ -5,7 +5,7 @@ function verificar(){
     var res = document.querySelector("div#res")
     var main = document.querySelector("main")
     
-    main.style.height = "425px"
+    main.style.height = "432px"
 
     if(velocidade == 0){
         window.alert("[ERRO] Por favor insira a velocidade do condutor!")
