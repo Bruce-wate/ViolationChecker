@@ -62,6 +62,7 @@ main > p > input#ver{
     border-radius: 8px;
     margin: auto;
     display: block;
+    background-color: rgba(135, 149, 163, 0.664);
 }
 
 main > div#res{
